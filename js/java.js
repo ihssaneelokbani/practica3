@@ -3,7 +3,11 @@ $(function () {
         $(this).css({
             display:"none"
         })
+        $("p").on("click",function () {
+            $(this).remove();
 
+
+        })
 
         var resultado = $.ajax({
             url: 'https://randomuser.me/api/',
@@ -19,11 +23,7 @@ $(function () {
                     +""+persona["location"]["postcode"]+" "+[","]+" "+persona["location"]["city"]+""+[","]+""+persona["location"]["state"]+" </p>")
 
             }
-            $("p").on("click",function () {
-                $(this).remove();
 
-
-        })
 
     })
     })
