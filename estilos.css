@@ -1,0 +1,57 @@
+
+body{
+    margin: 0;
+}
+#persona{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+
+}
+h1{
+    text-align: center;
+    background-color: gray;
+    font-size: 3em;
+    margin: 0;
+    font-family: sans-serif;
+    padding: 100px;
+
+}
+
+
+button{
+    display:none;
+    outline: none;
+    position: fixed;
+    top: 30%;
+    width: 100%;
+}
+
+#button{
+    display: block;
+    background-color: cyan;
+    width: 60%;
+    height: 5%;
+    border-radius: 5px;
+    margin-left: 20%;
+
+}
+p:nth-of-type(odd){
+    background-color: blue;
+
+
+}
+p{
+     margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0;
+    margin-bottom:0 ;
+    padding: 20px;
+   z-index: 20;
+
+}
+picture{
+    margin-left: 5%;
+}
